@@ -1,7 +1,8 @@
 import threading
 import socket
+import sys
 
-host = '127.0.0.1'
+host = sys.argv[1]
 port = 9900
 
 servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
